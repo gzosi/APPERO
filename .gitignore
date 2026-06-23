@@ -1,0 +1,14 @@
+# Source Files
+*.jpg
+*.pth
+*.pb
+*.pt
+
+# Output Files
+*.h5
+*.json
+*.pkl
+*.ply
+
+# Developing Files
+*.ipynb
