@@ -7,12 +7,12 @@ from .Media import Media
 class Config:
     class Settings:
         class CaseStudy:
-            Prop = 'Prop2'
+            Prop = 'Prop3'
             Pov = 'Pov1'
             Kt = 'Kt1'
             Sigma = 'Sigma1'
         class Acquisition:
-            Blades = 4
+            Blades = 5
             PPR = 256
         class Pattern:
             patternRow = 15

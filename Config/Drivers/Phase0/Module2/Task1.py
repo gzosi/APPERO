@@ -1,3 +1,4 @@
+#%% Importing Libreries
 import cv2 as cv
 #%% Defining Config Packet
 class Task1:
@@ -7,27 +8,27 @@ class Task1:
     class Settings:
         class Rotation:
             Camera1 = None
-            Camera2 = cv.ROTATE_180
+            Camera2 = None
             # cv.ROTATE_90_CLOCKWISE, cv.ROTATE_180, cv.ROTATE_90_COUNTERCLOCKWISE 
         class Resync:
             class Database2:
-                Dataset1 = 7
+                Dataset1 = 75
             class Database3: 
-                class Dataset2:
-                    Background = 24
-                    Foreground = 25
+                class Dataset1:
+                    Background = 28
+                    Foreground = 30
             class Database4:
                 Dataset1 = 30
-                Dataset2 = 4
-                Dataset3 = 21
-                Dataset4 = 41
-                Dataset5 = 23
-                Dataset6 = 32
-                Dataset7 = 59
-                Dataset8 = 15
-                Dataset9 = 12
-                Dataset10 = 55
-                Dataset11 = 34
+                Dataset2 = 30
+                Dataset3 = 30
+                Dataset4 = 30
+                Dataset5 = 30
+                Dataset6 = 30
+                Dataset7 = 30
+                Dataset8 = 30
+                Dataset9 = 30
+                Dataset10 = 30
+                Dataset11 = 30
     class General:
         Activation = True
         Maker = True

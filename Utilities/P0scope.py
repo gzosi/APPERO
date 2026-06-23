@@ -8,10 +8,10 @@ import cv2
 class Settings:
     class Src:
         Database = 'Database3'
-        Dataset = 'Dataset2'
+        Dataset = 'Dataset1'
         Foreground = 'Foreground'
         Background = 'Background'
-    Bounds = [[0, 37]] 
+    Bounds = [[0, 45]] 
 
 main_root = Path(Config.Paths.mainRooot)
 srcRoot = (main_root /

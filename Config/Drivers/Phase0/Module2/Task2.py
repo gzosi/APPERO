@@ -6,7 +6,7 @@ class Task2:
         Indent = 4
     class Settings:
         IncludeOrigin = True 
-        FullSensorShape = (1280, 800)
+        FullSensorShape = (640, 800)
     class General:
         Activation = True
         Maker = True
