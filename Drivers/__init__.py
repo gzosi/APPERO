@@ -2,7 +2,7 @@
 from termcolor import colored
 #%% Importing Code Phases
 from Drivers import Phase0
-# from Drivers import Phase1
+from Drivers import Phase1
 # from Drivers import Phase2
 # from Drivers import Phase3
 # from Drivers import Phase4
@@ -14,8 +14,8 @@ def main(Config):
         print('. Drivers:', colored( 'Running ℹ️ ', 'cyan'))
         print('----------------------------------')
         Phase0.main(Config)
-        # print('----------------------------------')
-        # Phase1.main(Config)
+        print('----------------------------------')
+        Phase1.main(Config)
         # print('----------------------------------')
         # Phase2.main(Config)
         # print('----------------------------------')
