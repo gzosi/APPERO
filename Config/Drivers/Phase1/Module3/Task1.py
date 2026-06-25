@@ -1,7 +1,7 @@
 #%% Defining Config Packet
 class Task1:
     class MetaData:
-        OutputExt = 'Data.pk'
+        OutputExt = 'Data.pkl'
     class Settings:
         sizes = dict(
             Dataset1 = dict(
