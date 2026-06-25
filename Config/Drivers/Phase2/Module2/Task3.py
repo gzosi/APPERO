@@ -24,7 +24,7 @@ class Task3:
                 exclusion_zones = [ 
                     [[-100, -100 , -1000], [-15, -5, 1000]],
                     [[50, -1000, - 1000],[100, 1000, 1000]],
-                    [[-100, -15, 460], [-2.5, 0, 1000]]
+                    [[-100, -11.5, 450], [1.5, -3.5, 1000]]
                 ]
             class Size:
                 voxelSize = 1.5       
@@ -58,7 +58,7 @@ class Task3:
             class Smoothing:
                 subdivide = 2                         
                 method = 'taubin'        
-                iterations = 1      
+                iterations = 3     
                 lambda_filter = 0.5
                 mu = -0.5
     class General:

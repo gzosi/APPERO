@@ -8,5 +8,5 @@ class Module1:
         Task1 = Task1
         Task2 = Task2
     class General:
-        Activation = False
+        Activation = True
         Version = 0
