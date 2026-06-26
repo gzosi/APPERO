@@ -8,10 +8,11 @@ import cv2
 class Settings:
     class Src:
         Database = 'Database3'
-        Dataset = 'Dataset2'
+        Dataset = 'Dataset4'
         Foreground = 'Foreground'
         Background = 'Background'
-    Bounds = [[0, 37]] 
+    Bounds = [[0, 45]] 
+
 
 main_root = Path(Config.Paths.mainRooot)
 srcRoot = (main_root /
@@ -54,7 +55,7 @@ with h5py.File(srcRoot, 'r') as f:
             thickness=2, 
             lineType=cv2.LINE_AA)
         cv2.imshow(window_name, combined)
-        if cv2.waitKey(100) & 0xFF == ord('q'):
+        if cv2.waitKey(500) & 0xFF == ord('q'):
             print("Visualizzazione interrotta dall'utente.")
             break
 cv2.destroyAllWindows()
