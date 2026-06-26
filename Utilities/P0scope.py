@@ -13,6 +13,7 @@ class Settings:
         Background = 'Background'
     Bounds = [[0, 45]] 
 
+
 main_root = Path(Config.Paths.mainRooot)
 srcRoot = (main_root /
     Config.Paths.DataRoots.ResourcesRoot /
