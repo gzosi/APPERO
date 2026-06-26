@@ -4,7 +4,7 @@ from termcolor import colored
 from Drivers import Phase0
 from Drivers import Phase1
 from Drivers import Phase2
-# from Drivers import Phase3
+from Drivers import Phase3
 # from Drivers import Phase4
 #%% Defining Main Function
 def main(Config):
@@ -18,8 +18,8 @@ def main(Config):
         Phase1.main(Config)
         print('----------------------------------')
         Phase2.main(Config)
-        # print('----------------------------------')
-        # Phase3.main(Config)
+        print('----------------------------------')
+        Phase3.main(Config)
         # print('----------------------------------')
         # Phase4.main(Config)
         print('----------------------------------')
