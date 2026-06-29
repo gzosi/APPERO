@@ -5,7 +5,7 @@ from Drivers import Phase0
 from Drivers import Phase1
 from Drivers import Phase2
 from Drivers import Phase3
-# from Drivers import Phase4
+from Drivers import Phase4
 #%% Defining Main Function
 def main(Config):
     print('----------------------------------')
@@ -20,8 +20,8 @@ def main(Config):
         Phase2.main(Config)
         print('----------------------------------')
         Phase3.main(Config)
-        # print('----------------------------------')
-        # Phase4.main(Config)
+        print('----------------------------------')
+        Phase4.main(Config)
         print('----------------------------------')
         print('. Drivers:', colored( 'Exexuted ✅', 'green'))
     elif Config.Packages.Drivers.General.Activation is False:
